@@ -2,12 +2,12 @@ Dado('que eu acesso o site de compras') do
     visit_page.visit_site
   end
   
-  Quando('realizo a busca pelo produto {string}') do |string|
-    busca_produto.busca_produto(string)
+  Quando('realizo a busca pelo produto {produto}') do |produto|
+    busca_produto.busca_produto(produto)
   end
   
-  Então('eu vejo no resultado da consulta {string}') do |string|
-    @confirm_produto = busca_produto.confirm_produto(string)
+  Então('eu vejo no resultado da consulta {resultado}') do |resultado|
+    @confirm_produto = busca_produto.confirm_produto(resultado)
     expect(@confirm_produto).to eql("Você buscou por Iphone XR")
   end
   
