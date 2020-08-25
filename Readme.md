@@ -1,21 +1,22 @@
-# Project WebAPI Portal
-This project was developed using the open-source Cucumber and HTTParty and WebDriver frameworks for back-end automation.
+# Desafio de QA - Resolução
+Este projeto foi desenvolvido utilizando Cucumber com Ruby para automação de front-end
 
-## Step 1:
+## Passo 1:
 
-Install:
+Instalar:
 * Ruby 2.5.5 and DevKit (https://rubyinstaller.org/downloads/)
 * Bundler ($ gem install bundler)
 
-## Step 2:
-Clone project:
+## Passo 2:
+Clonar o projeto:
 
     * $git clone
 
-## Step 3:
-After to clone project, go to the project root and execute $ bundle install
+## Passo 3:
+Depois de clonar o projeto, acessar a raíz do projeto e executar o seguinte comando:
 
-## Exemple to run:
+    * $bundle install
 
-    $ cucumber - Run all the tests.
-    $ cucumber --tag @tag  - Run the specific test.
+## Exemplo para rodar os testes:
+
+    $ cucumber - executa todos os testes.
